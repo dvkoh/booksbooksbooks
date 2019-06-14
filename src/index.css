@@ -5,9 +5,47 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/*headname*/
+.f72{font-size: 13px;}
+.roboto-700{font-family: 'Roboto', sans-serif; font-weight: 700;}
+.roboto-400{font-family: 'Roboto', sans-serif; font-weight: 400;}
+.frame{position: fixed; top: 0px;}
+.line-height{line-height: 20px;}
+.transition{transition: .5s;}
+.invisible{color:rgba(0,0,0,0);}
+.fixed{position: fixed;}
+.f0{font-size: 70px;}
+.cursor{cursor: default;}
+.underline{border-bottom: 2px solid white;}
+.headwidth{width: 96vw;position: absolute; top:40vh; line-height: 0px;}
+.headwidth-s{width: 90vw;position: absolute; top:30vh; line-height: 10px;}
+.headwidth-m{width: 84vw;position: absolute; top:35vh; line-height: 5px;}
+
+/*booklist*/
+.bookstart{position: absolute; top:100vh;}
+
+/*books*/
+.absolute{position: absolute;}
+.width{width: 98vw;}
+.behind{width:98vw; z-index: -1;}
+.box{position: fixed; left:75vw; top: 40vh; width: 200px;}
+.line-height-1{line-height: 18px;}
+.line-height-0{line-height: 0px;}
+.top{z-index: 100;}
+.right{left: 1150px;}
+.small{width:70%}
+.f8{font-size: 8px;}
+.pt11{padding-top: 6px;}
+.width-m{width: 100vw;}
+
+
+a{text-decoration: none;color: white;}
+a:hover{text-decoration:underline;}
