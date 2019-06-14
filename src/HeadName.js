@@ -38,8 +38,8 @@ class HeadName extends React.Component{
 						<p className=''>{this.state.name} <span className='roboto-700'>Koh</span></p>
 					</div>	
 					<div className='pt5 mt3 line-height'>
-						<p><a href='https://dvkoh.github.io/archive/' className={this.state.display? 'transition':'transition invisible'}>Archive ↗</a>
-						<br/><a href='https://dvkoh.github.io/portfolio/' className={this.state.display? 'transition':'transition invisible'}>Portfolio ↗</a></p>
+						<p><a target="_blank" href='https://dvkoh.github.io/archive/' className={this.state.display? 'transition':'transition invisible'}>Archive ↗</a>
+						<br/><a target="_blank" href='https://dvkoh.github.io/portfolio/' className={this.state.display? 'transition':'transition invisible'}>Portfolio ↗</a></p>
 						<br/>
 					</div>
 					<div className='headwidth'>
@@ -54,8 +54,8 @@ class HeadName extends React.Component{
 							<p className=''>{this.state.name} <span className='roboto-700'>Koh</span></p>
 						</div>	
 						<div className='pt5 mt3 line-height'>
-							<p><a href='https://dvkoh.github.io/archive/' className={this.state.display? 'transition':'transition invisible'}>Archive ↗</a>
-							<br/><a href='https://dvkoh.github.io/portfolio/' className={this.state.display? 'transition':'transition invisible'}>Portfolio ↗</a></p>
+							<p><a target="_blank" href='https://dvkoh.github.io/archive/' className={this.state.display? 'transition':'transition invisible'}>Archive ↗</a>
+							<br/><a target="_blank" href='https://dvkoh.github.io/portfolio/' className={this.state.display? 'transition':'transition invisible'}>Portfolio ↗</a></p>
 							<br/>
 						</div>
 						<div className='headwidth-s'>
@@ -71,11 +71,11 @@ class HeadName extends React.Component{
 							<p className=''>{this.state.name} <span className='roboto-700'>Koh</span></p>
 						</div>	
 						<div className='pt5 mt3 line-height'>
-							<p><a href='https://dvkoh.github.io/archive/' className={this.state.display? 'transition':'transition invisible'}>Archive ↗</a>
-							<br/><a href='https://dvkoh.github.io/portfolio/' className={this.state.display? 'transition':'transition invisible'}>Portfolio ↗</a></p>
+							<p><a target="_blank" href='https://dvkoh.github.io/archive/' className={this.state.display? 'transition':'transition invisible'}>Archive ↗</a>
+							<br/><a target="_blank" href='https://dvkoh.github.io/portfolio/' className={this.state.display? 'transition':'transition invisible'}>Portfolio ↗</a></p>
 							<br/>
 						</div>
-						<div className='headwidth-m'>
+						<div className='headwidth-s'>
 							<p className='f0 tc'>* books<span className='invisible'>*&nbsp;</span></p>
 							<p className='f0 tc'><span className='invisible'>*&nbsp;</span>books<span className='invisible'>*&nbsp;</span></p>
 							<p className='f0 tc'><span className='invisible'>*&nbsp;</span>books *</p>
