@@ -67,11 +67,9 @@ class HeadName extends React.Component{
 				</MediaQuery>
 				<MediaQuery maxDeviceWidth={1224}>
 					<div className='roboto-400 f72 white'>
-						<div className='frame roboto-400 mt3 mb4 ml4'>						
-							<p className=''>{this.state.name} <span className='roboto-700'>Koh</span></p>
-						</div>	
-						<div className='pt5 mt3 line-height ml4'>
-							<p><a target="_blank" href='https://dvkoh.github.io/archive/' className={this.state.display? 'transition':'transition invisible'}>Archive ↗</a>
+						<div className='frame roboto-400 mt3 mb4 ml4 line-height '>						
+							<p className=''>{this.state.name} <span className='roboto-700'>Koh</span>
+							<br/><br/><a target="_blank" href='https://dvkoh.github.io/archive/' className={this.state.display? 'transition':'transition invisible'}>Archive ↗</a>
 							<br/><a target="_blank" href='https://dvkoh.github.io/portfolio/' className={this.state.display? 'transition':'transition invisible'}>Portfolio ↗</a></p>
 							<br/>
 						</div>
