@@ -33,11 +33,11 @@ class HeadName extends React.Component{
 		return(
 			<div>
 			<MediaQuery minWidth={1400}>
-				<div className='roboto-400 f72 ml4 white mr4'>
-					<div className='frame roboto-400 mt3 mb4'>						
+				<div className='roboto-400 f72 white'>
+					<div className='frame roboto-400 mt3 mb4 ml4'>						
 						<p className=''>{this.state.name} <span className='roboto-700'>Koh</span></p>
 					</div>	
-					<div className='pt5 mt3 line-height'>
+					<div className='pt5 mt3 line-height ml4'>
 						<p><a target="_blank" href='https://dvkoh.github.io/archive/' className={this.state.display? 'transition':'transition invisible'}>Archive ↗</a>
 						<br/><a target="_blank" href='https://dvkoh.github.io/portfolio/' className={this.state.display? 'transition':'transition invisible'}>Portfolio ↗</a></p>
 						<br/>
@@ -49,33 +49,33 @@ class HeadName extends React.Component{
 			</MediaQuery>
 			<MediaQuery maxWidth={1400}>
 				<MediaQuery minDeviceWidth={1224}>
-					<div className='roboto-400 f72 ml4 white mr4'>
-						<div className='frame roboto-400 mt3 mb4'>						
+					<div className='roboto-400 white'>
+						<div className='frame f72 mt3 mb4 ml4'>						
 							<p className=''>{this.state.name} <span className='roboto-700'>Koh</span></p>
 						</div>	
-						<div className='pt5 mt3 line-height'>
+						<div className='pt5 f72 mt3 line-height ml4'>
 							<p><a target="_blank" href='https://dvkoh.github.io/archive/' className={this.state.display? 'transition':'transition invisible'}>Archive ↗</a>
 							<br/><a target="_blank" href='https://dvkoh.github.io/portfolio/' className={this.state.display? 'transition':'transition invisible'}>Portfolio ↗</a></p>
 							<br/>
 						</div>
-						<div className='headwidth-s'>
-							<p className='f0 tc'>* books<span className='invisible'>*&nbsp;</span></p>
-							<p className='f0 tc'><span className='invisible'>*&nbsp;</span>books<span className='invisible'>*&nbsp;</span></p>
-							<p className='f0 tc'><span className='invisible'>*&nbsp;</span>books *</p>
+						<div className='headwidth-s f0 tc'>
+							<p className=''>* books<span className='invisible'>*&nbsp;</span></p>
+							<p className=''><span className='invisible'>*&nbsp;</span>books<span className='invisible'>*&nbsp;</span></p>
+							<p className=''><span className='invisible'>*&nbsp;</span>books *</p>
 						</div>
 					</div>
 				</MediaQuery>
 				<MediaQuery maxDeviceWidth={1224}>
-					<div className='roboto-400 f72 ml4 white mr4'>
-						<div className='frame roboto-400 mt3 mb4'>						
+					<div className='roboto-400 f72 white'>
+						<div className='frame roboto-400 mt3 mb4 ml4'>						
 							<p className=''>{this.state.name} <span className='roboto-700'>Koh</span></p>
 						</div>	
-						<div className='pt5 mt3 line-height'>
+						<div className='pt5 mt3 line-height ml4'>
 							<p><a target="_blank" href='https://dvkoh.github.io/archive/' className={this.state.display? 'transition':'transition invisible'}>Archive ↗</a>
 							<br/><a target="_blank" href='https://dvkoh.github.io/portfolio/' className={this.state.display? 'transition':'transition invisible'}>Portfolio ↗</a></p>
 							<br/>
 						</div>
-						<div className='headwidth-s'>
+						<div className='headwidth-m'>
 							<p className='f0 tc'>* books<span className='invisible'>*&nbsp;</span></p>
 							<p className='f0 tc'><span className='invisible'>*&nbsp;</span>books<span className='invisible'>*&nbsp;</span></p>
 							<p className='f0 tc'><span className='invisible'>*&nbsp;</span>books *</p>
