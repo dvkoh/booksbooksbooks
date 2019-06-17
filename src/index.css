@@ -26,7 +26,7 @@ code {
 .cursor{cursor: default;}
 .underline{border-bottom: 2px solid white;}
 .headwidth{width: 96vw;position: absolute; top:40vh; line-height: 0px;}
-.headwidth-s{width: 82vw;position: absolute; top:30vh; line-height: 10px;}
+.headwidth-s{width: 91vw;position: absolute; top:28vh; line-height: 10px;}
 .headwidth-m{width: 84vw;position: absolute; top:35vh; line-height: 5px;}
 
 /*booklist*/
