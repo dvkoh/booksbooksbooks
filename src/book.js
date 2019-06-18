@@ -24,15 +24,14 @@ class Book extends React.Component{
 				<div id={`${info[0]}` } className='width'  onMouseOver={hoverIn} onMouseLeave={hoverOut}>
 					<div className='white roboto-400 f7 line-height-1 mr5 absolute right'>
 						<p className={this.state.toggle? '':'invisible'}>
-							>><br/>{nl2br(`${info[4]}`)}
+						{nl2br(`${info[4]}`)}
 						</p>
 					</div>
-
 					<div className={this.state.toggle? 'dim':''}>
-				    	<div className='white calisto f7 tl absolute ml5 line-height-1'>
-			    			<p className=''><span className='bg-black'>- {`${info[1]}`}&nbsp;&nbsp;&nbsp;</span><span className='white-30'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </span></p>
+				    	<div className='white calisto f7 tl absolute ml6 line-height-1'>
+			    			<p className=''><span className='bg-black'>- {`${info[1]}`}&nbsp;&nbsp;&nbsp;</span><span className='white-30'>. . . . . . . . . . . . . . . . . . . . . </span></p>
 			    		</div>
-			    		<p className='calisto f4 pt1 pl4 absolute behind white-80 tc'>{`${info[2]}`}, <span className='i'>{`${info[3]}`}</span></p>
+			    		<p className='calisto f4 pt1 pl4 absolute behind white-80 tc pl3'>{`${info[2]}`}, <span className='i'>{`${info[3]}`}</span></p>
 			    		<div className='tc ml4'>
 							<img src={`${info[5]}`} alt=''/>	
 						</div>
