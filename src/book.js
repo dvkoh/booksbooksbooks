@@ -28,8 +28,8 @@ class Book extends React.Component{
 						</p>
 					</div>
 					<div className={this.state.toggle? 'dim':''}>
-				    	<div className='white calisto f7 i tl absolute ml6 line-height-1'>
-			    			<p className=''><span className='bg-black'>{`${info[1]}`}&nbsp;&nbsp;&nbsp;</span><span className='white-30'>. . . . . . . . . . . . . . . . . . . . . </span></p>
+				    	<div className='white calisto f7 tl absolute ml6 line-height-1'>
+			    			<p className='f7 i'><span className='bg-black'>{`${info[1]}`}&nbsp;</span>&nbsp;&nbsp;&nbsp;<span className='white-30'>. . . . . . . . . . . . . . . . . . . . . </span></p>
 			    		</div>
 			    		<p className='calisto f4 pt1 pl4 absolute behind white-80 tc pl3'>{`${info[2]}`}, <span className='i'>{`${info[3]}`}</span></p>
 			    		<div className='tc ml4'>
