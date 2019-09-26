@@ -10,12 +10,6 @@ class HeadName extends React.Component{
 			display: true
 		};
 	}
-	changeName = () => {
-		if(this.state.name === 'Dong Yoon')this.setState({name:'David'})
-		else if(this.state.name === 'David')this.setState({name:'동윤'})
-		else if(this.state.name === '동윤')this.setState({name:'東潤'})
-		else this.setState({name:'Dong Yoon'})
-	}
 
 	componentDidMount() {
 	  window.addEventListener('scroll', this.handleScroll);
@@ -29,13 +23,18 @@ class HeadName extends React.Component{
 	};
 
 	render(){
+		const hoverIn =()=> {
+			if(this.state.name === 'Dongyoon')this.setState({name:'David'})
+			else if(this.state.name === 'David')this.setState({name:'東潤'})
+			else this.setState({name:'Dongyoon'})
+		}
 
 		return(
 			<div>
 			<MediaQuery minWidth={1400}>
 				<div className='roboto-400 f72 white'>
-					<div className='frame roboto-400 mt3 mb4 ml4'>						
-						<p className=''>{this.state.name} <span className='roboto-700'>Koh</span></p>
+					<div className='frame roboto-400 mt3 pt1 mb4 ml4'>						
+						<p className='' onMouseEnter={hoverIn}>{this.state.name} <span className='roboto-700'>Koh</span></p>
 					</div>	
 					<div className='pt5 mt3 line-height ml4'>
 						<p><a target="_blank" href='https://dvkoh.github.io/archive/' className={this.state.display? 'transition':'transition invisible'}>Archive ↗</a>
@@ -50,8 +49,8 @@ class HeadName extends React.Component{
 			<MediaQuery maxWidth={1400}>
 				<MediaQuery minDeviceWidth={1224}>
 					<div className='roboto-400 white'>
-						<div className='frame f72 mt3 mb4 ml4'>						
-							<p className=''>{this.state.name} <span className='roboto-700'>Koh</span></p>
+						<div className='frame f72 mt3 pt1 mb4 ml4'>						
+							<p className='' onMouseEnter={hoverIn}>{this.state.name} <span className='roboto-700'>Koh</span></p>
 						</div>	
 						<div className='pt5 f72 mt3 line-height ml4'>
 							<p><a target="_blank" href='https://dvkoh.github.io/archive/' className={this.state.display? 'transition':'transition invisible'}>Archive ↗</a>

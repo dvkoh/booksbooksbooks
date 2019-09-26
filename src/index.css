@@ -15,8 +15,8 @@ code {
 
 /*headname*/
 .f72{font-size: 13px;}
-.roboto-700{font-family: 'Roboto', sans-serif; font-weight: 700;}
-.roboto-400{font-family: 'Roboto', sans-serif; font-weight: 400;}
+.roboto-700{font-family: 'Arial', sans-serif; font-weight: 700;}
+.roboto-400{font-family: 'Arial', sans-serif; font-weight: 400;}
 .frame{position: fixed; top: 0px;}
 .line-height{line-height: 20px;}
 .transition{transition: .5s;}
